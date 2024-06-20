@@ -9,19 +9,14 @@
             height: 100%;
             margin: 0;
             display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
             background-color: #f0f0f0;
             font-family: Arial, sans-serif;
         }
 
         #container {
             text-align: center;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
         }
 
         #circle {
@@ -41,43 +36,12 @@
             margin-top: 20px;
             font-size: 24px;
         }
-
-        #footer {
-            display: flex;
-            justify-content: space-around;
-            background-color: #ffffff;
-            padding: 10px 0;
-            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .footer-button {
-            flex-grow: 1;
-            padding: 10px;
-            margin: 0 5px;
-            background-color: #e0e0e0;
-            text-align: center;
-            border-radius: 5px;
-            font-size: 16px;
-            color: #333;
-            text-decoration: none;
-            user-select: none;
-        }
-
-        .footer-button:active {
-            background-color: #c0c0c0;
-        }
     </style>
 </head>
 <body>
     <div id="container">
         <div id="circle">Click</div>
         <div id="counter">0</div>
-    </div>
-    <div id="footer">
-        <div class="footer-button">Earn</div>
-        <div class="footer-button">Power</div>
-        <div class="footer-button">Profile</div>
-        <div class="footer-button">Friends</div>
     </div>
 
     <script>
